@@ -1,0 +1,25 @@
+.grid {
+  width: 480px;
+  height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  user-select: none;
+}
+
+.square {
+  width: 15px;
+  height: 15px;
+}
+
+.snake {
+  background-color: green;
+}
+
+.wall {
+  background-color: black;
+}
+
+.fruit {
+  background-color: red;
+}
